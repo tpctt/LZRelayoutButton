@@ -1,4 +1,7 @@
 # LZRelayoutButton
+```
+pod 'LZRelayoutButton'
+
 调整UIButton的title和image位置,
 在原来的基础上增加了 imageSize 设置 image 的大小,而不是之前的7/8 的大小, 同时添加了 image 的 offset to top or right        LZRelayoutButton 可以在 cocoapods 的 master 中搜索到了,欢迎提 issue ,之前是 fork 的 LQQZYY,现在改动太多之后就闹独立了
 ##
