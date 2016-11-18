@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                  = "LZRelayoutButton"
-  s.version               = "1.5.0"
+  s.version               = "1.5.1"
   s.summary               = "UIButton 支持上下显示图片或者 图片靠右显示"
   s.homepage              = "https://github.com/tpctt/LZRelayoutButton"
   s.social_media_url      = "https://github.com/tpctt/LZRelayoutButton"
