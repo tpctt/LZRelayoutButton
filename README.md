@@ -11,7 +11,7 @@ pod 'LZRelayoutButton'
 <br>[博文讲解](http://blog.csdn.net/lqq200912408/article/details/51323336)
 <br>
 <img src="https://github.com/LQQZYY/LZButtonCategory/blob/master/LZButton.png" width="50%" height="50%" />
-````
+
 
 ````
 
@@ -19,12 +19,10 @@ pod 'LZRelayoutButton'
 {
     
     //字体不同 不可以同时设置行间距  14 3 10
-
     self.backgroundColor = k_color_C7;
     NSArray *titles = @[@"1111",@"2222",@"3333",@"4444"];
     NSArray *image  = @[@"icon_1111", @"icon_2222",@"icon_3333", @"icon_4444"];
     NSArray *selectedImage  = @[@"icon_1111", @"icon_2222",@"icon_3333", @"icon_4444"];
-    
     
     UIView *pre = nil;
     for (NSInteger i = 0; i< titles.count; i++) {
@@ -42,7 +40,6 @@ pod 'LZRelayoutButton'
         [self addSubview:button];
         [button setImage:[UIImage imageNamed:image[i]] forState:UIControlStateNormal];
        // [button setImage:[UIImage imageNamed:selectedImage[i]] forState:UIControlStateHighlighted];
-        
         
         button.tag = i;
         button.titleLabel.font = MYFONT(15);
@@ -78,6 +75,5 @@ pod 'LZRelayoutButton'
         pre = button;
         
     }
-    
 }
 ````
